@@ -31,7 +31,7 @@ Parameters:
   RepositoryOwner: 
     Type: String
     Description: The owner of the GitHub repository to be used to bootstrap Cloud9
-    Default: "aws-samples"
+    Default: "machafer"
   RepositoryName: 
     Type: String
     Description: The name of the GitHub repository to be used to bootstrap Cloud9

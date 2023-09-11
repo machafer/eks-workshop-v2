@@ -109,7 +109,7 @@ download_and_verify "https://github.com/argoproj/argo-cd/releases/download/v${ar
 chmod +x ./argocd-linux-amd64
 mv ./argocd-linux-amd64 /usr/local/bin/argocd
 
-REPOSITORY_OWNER=${REPOSITORY_OWNER:-"aws-samples"}
+REPOSITORY_OWNER=${REPOSITORY_OWNER:-"machafer"}
 REPOSITORY_NAME=${REPOSITORY_NAME:-"eks-workshop-v2"}
 
 if [ ! -z "$REPOSITORY_REF" ]; then
